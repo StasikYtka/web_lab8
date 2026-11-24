@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты Станиславы Калиничевой — обратная связь</title>
+    <meta name="description" content="Свяжитесь со Станиславой Калиничевой для обсуждения дизайна и медиапроектов. На странице представлены контактные данные и учебная форма обратной связи.">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/validation.js" defer></script>
+</head>
+<body>
+    <nav class="header">
+        <a href="index.html">Обо мне</a>
+        <a href="works.html">Работы</a>
+        <a href="contacts.html" aria-current="page">Контакты</a>
+    </nav>
+    <main class="contacts" id="contacts">
+        <h1>Контакты</h1>
+        <ul>
+            <li>Почта: stanislavakalinicheva@yandex.ru</li>
+            <li>Телефон: 8 000 000-00-00</li>
+            <li>ВКонтакте: https://vk.ru/stanislavakalinicheva</li>
+        </ul>
+        <form class="contact-form" id="contact-form" novalidate="">
+            <h2>Свяжитесь со мной!</h2>
+            <label for="name">Имя</label><input autocomplete="given-name" id="name" name="name" required=""/><small id="name-error"></small>
+            <label for="email">Электронная почта</label><input autocomplete="email" id="email" name="email" required="" type="email"/><small id="email-error"></small>
+            <label for="message">Сообщение</label><textarea id="message" name="message" required="" rows="4"></textarea><small id="message-error"></small>
+            <button type="submit">Проверить анкету</button><p id="result" role="status"></p>
+        </form> 
+    </main>
+    <footer class="footer"><p>Спасибо за посещение моего сайта!</p></footer>
+</body>
+</html>
