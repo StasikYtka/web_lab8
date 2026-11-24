@@ -1,6 +1,6 @@
 User-agent: *
-Disallow: /web_portfolio/css/
-Disallow: /web_portfolio/js/
-Disallow: /web_portfolio/images/
-Allow: /web_portfolio/
-Sitemap: https://stasikytka.github.io/web_portfolio/sitemap.xml
+Disallow: /web_lab8/css/
+Disallow: /web_lab8/js/
+Disallow: /web_lab8/images/
+Allow: /web_lab8/
+Sitemap: https://stasikytka.github.io/web_lab8/sitemap.xml
